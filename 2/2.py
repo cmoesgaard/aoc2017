@@ -19,14 +19,14 @@ def get_evenly_divisible(string_list):
 
 
 def part_one():
-    with open('2.input', 'r') as f:
+    with open('input', 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         return functools.reduce(lambda s, x: s + get_difference(x),
                                 reader, 0)
 
 
 def part_two():
-    with open('2.input', 'r') as f:
+    with open('input', 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         return functools.reduce(lambda s, x: s + get_evenly_divisible(x),
                                 reader, 0)

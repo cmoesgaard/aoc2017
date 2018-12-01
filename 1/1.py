@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-with open('1.input', 'r') as f:
+with open('input', 'r') as f:
     input_string = f.readline().rstrip()
 
 
